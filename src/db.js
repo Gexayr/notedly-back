@@ -16,8 +16,9 @@ module.exports = {
     // Log an error if we fail to connect
     mongoose.connection.on('error', err => {
       console.error(err);
+      console.log(err);
       console.log(
-        'MongoDB connection error. Please make sure MongoDB is running.'
+          'MongoDB connection error. Please make sure MongoDB is running.'
       );
       process.exit();
     });
