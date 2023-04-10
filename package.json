@@ -1,5 +1,5 @@
 {
-  "name": "notedly-api",
+  "name": "c0fee-api",
   "version": "1.0.0",
   "engines": {
     "node": "14.x",
@@ -27,17 +27,17 @@
   "author": "Adam Scott",
   "license": "MIT",
   "dependencies": {
-    "apollo-server-express": "^2.4.0",
+    "apollo-server-express": "2.4.0",
     "bcrypt": "3.0.6",
-    "cors": "2.8.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "dotenv": "6.1.0",
     "express": "^4.18.2",
     "express-session": "1.15.6",
-    "fs": "0.0.1-security",
-    "graphql": "^14.7.0",
+    "graphql": "^14.1.1",
     "graphql-depth-limit": "1.1.0",
+    "graphql-export": "^1.2.3",
     "graphql-iso-date": "3.6.1",
-    "graphql-upload": "^16.0.2",
     "graphql-validation-complexity": "0.2.4",
     "helmet": "3.21.2",
     "jsonwebtoken": "8.5.1",
@@ -49,10 +49,11 @@
     "passport-github2": "0.1.11"
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "eslint": "5.13.0",
     "eslint-config-prettier": "4.0.0",
     "eslint-plugin-prettier": "3.0.1",
-    "faker": "4.1.0",
+    "faker": "^4.1.0",
     "node-fetch": "2.5.0",
     "prettier": "1.18.2"
   }
