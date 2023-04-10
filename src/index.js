@@ -51,7 +51,8 @@ const server = new ApolloServer({
     const user = getUser(token);
     // add the db models and the user to the context
     return { models, user };
-  }
+  },
+  playground: true,
 });
 
 // Apply the Apollo GraphQL middleware and set the path to /api
